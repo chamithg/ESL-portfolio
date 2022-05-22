@@ -175,10 +175,19 @@ p {
   margin-bottom: 5rem;
 }
 .essay-body {
-  margin: 10rem;
+  margin: 12rem;
   margin-top: 2rem;
   font-size: 2rem;
 }
 .essay-body p {
   font-size: 8px;
+}
+@media screen and (max-width: 800px) {
+  .essay-mobile {
+    margin: 10px;
+  }
+  .essay-header,
+  .essay-body {
+    margin: 2rem;
+  }
 }
